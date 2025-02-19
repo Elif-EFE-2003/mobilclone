@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kurTakip</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Doviz Takip</string>
+    <string name="yenile">Yenile</string>
+    <string name="doviz_takip_url">http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml</string>
+</resources>
