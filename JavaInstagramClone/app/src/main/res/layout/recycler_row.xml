@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/recyclerViewUserEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="userEmail text"
+        android:textSize="20sp"
+        android:textColor="#E40E0E"
+        android:layout_marginBottom="10dp" />
+
+
+    <ImageView
+        android:id="@+id/recyclerViewImageView"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:id="@+id/recyclerViewCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User comment"
+        android:textSize="18sp"
+        android:textColor="#2636C7"
+        android:layout_marginBottom="10dp" />
+
+
+    <EditText
+        android:id="@+id/recyclerViewAddCommentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yorum yapın..."
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="10dp" />
+
+
+    <Button
+        android:id="@+id/recyclerViewSendCommentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönder"
+        android:layout_gravity="end"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF" />
+
+
+    <LinearLayout
+        android:id="@+id/recyclerViewCommentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
